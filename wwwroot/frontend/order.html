@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Pastry & Pour</title>
+
+    <!-- LINK TO EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- IMPORT GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Pastry & Pour</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ORDER PAGE MAIN SECTION -->
+    <main>
+        <section class="hero">
+            <h2>Place Your Order</h2>
+            <p>CHOOSE YOUR FAVORITE DRINKS AND PASTRIES BELOW</p>
+
+            <!-- ORDER FORM -->
+            <form>
+                <!-- NAME INPUT -->
+                <label for="name">NAME -</label>
+                <input type="text" id="name" name="name" placeholder="ENTER YOUR NAME" required>
+
+                <!-- EMAIL INPUT -->
+                <label for="email">EMAIL -</label>
+                <input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+
+                <!-- DRINK SELECTION -->
+                <label for="drink">CHOOSE A DRINK -</label>
+                <select id="drink" name="drink">
+                    <option value="latte">Latte</option>
+                    <option value="espresso">Espresso</option>
+                    <option value="coldbrew">Cold Brew</option>
+                </select>
+
+                <!-- PASTRY SELECTION -->
+                <label for="pastry">CHOOSE A PASTRY -</label>
+                <select id="pastry" name="pastry">
+                    <option value="croissant">Croissant</option>
+                    <option value="muffin">Muffin</option>
+                    <option value="scone">Scone</option>
+                </select>
+
+                <!-- SUBMIT BUTTON -->
+                <button type="submit">SUBMIT ORDER</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>© 2025 Pastry & Pour. Brewed to perfection by Allie Jurczak</p>
+    </footer>
+</body>
+</html>
