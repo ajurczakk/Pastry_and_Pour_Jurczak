@@ -1,6 +1,0 @@
-@Pastry_And_Pour_Jurczak_HostAddress = http://localhost:5063
-
-GET {{Pastry_And_Pour_Jurczak_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
