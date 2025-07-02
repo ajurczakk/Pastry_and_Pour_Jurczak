@@ -1,5 +1,71 @@
 [
   {
+    "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.DrinksController",
+    "Method": "GetDrinks",
+    "RelativePath": "api/Drinks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pastry_And_Pour_Jurczak.Models.PastryItem, Pastry_And_Pour_Jurczak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.MenuController",
+    "Method": "GetMenu",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.OrderStatusController",
+    "Method": "GetOrderStatus",
+    "RelativePath": "api/order-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Pastry_And_Pour_Jurczak.Order",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.OrderController",
+    "Method": "SubmitOrder",
+    "RelativePath": "api/Order/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "Pastry_And_Pour_Jurczak.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.PastriesController",
     "Method": "GetPastries",
     "RelativePath": "api/Pastries",
@@ -18,26 +84,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "Pastry_And_Pour_Jurczak.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pastry_And_Pour_Jurczak.WeatherForecast, Pastry_And_Pour_Jurczak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

@@ -35,7 +35,7 @@ This is a fictional bakery full stack web application. This application allows u
 
 ---
 
-## Student Info
+
 
 - Created by - Allie Jurczak
 

@@ -1,3 +1,4 @@
+using Pastry_And_Pour_Jurczak.Data;
 
 namespace Pastry_And_Pour_Jurczak
 {
@@ -6,17 +7,13 @@ namespace Pastry_And_Pour_Jurczak
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSingleton<MongoDBContext>();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -24,9 +21,12 @@ namespace Pastry_And_Pour_Jurczak
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
+          
+            app.UseStaticFiles();
+
+            app.UseDefaultFiles();
 
             app.MapControllers();
 

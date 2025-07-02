@@ -30,3 +30,14 @@ C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Po
 C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\obj\Debug\net8.0\Pastry_And_Pour_Jurczak.pdb
 C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\obj\Debug\net8.0\Pastry_And_Pour_Jurczak.genruntimeconfig.cache
 C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\obj\Debug\net8.0\ref\Pastry_And_Pour_Jurczak.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\Pastry_And_Pour_Jurczak.staticwebassets.runtime.json
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\DnsClient.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\Snappier.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\wwwroot\frontend\dashboard.html
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\wwwroot\frontend\style.css
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\wwwroot\frontend\order.html
+C:\Users\17735\Desktop\Web & Distributed Programming\Pastry & Pour\Pastry_And_Pour_Jurczak\bin\Debug\net8.0\wwwroot\frontend\menu.html

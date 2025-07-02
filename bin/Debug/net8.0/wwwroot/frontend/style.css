@@ -1,0 +1,145 @@
+﻿/* COLOR PALETTE - COLOURS.CAFE #294                         */
+/* #375A63 - DEEP TEAL (BODY TEXT, HEADER BG)                */
+/* #6795A0 - SLATE BLUE (FOOTER BG, ALT BUTTON BG)           */
+/* #F4EFE6 - LIGHT CREAM (PAGE BG)                           */
+/* #ECB172 - WARM GOLD (BUTTONS)                             */
+/* #D05F4C - RUST RED                                        */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@400;600&display=swap');
+
+/* BASE BODY */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F4EFE6; /* PAGE BG */
+    color: #375A63; /* BODY TEXT */
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLES */
+header {
+    background-color: #375A63; /* HEADER BG */
+    text-align: center;
+    padding: 20px;
+}
+
+    header h1 {
+        font-family: 'Playfair Display', serif;
+        color: #D05F4C; /* TITLE COLOR */
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+            header nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* MAIN HERO SECTION */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+    .hero h2 {
+        font-family: 'Playfair Display', serif;
+        color: #D05F4C; /* SECTION HEADING COLOR */
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        margin: 0 auto 20px auto;
+        max-width: 600px;
+        line-height: 1.5;
+    }
+
+    .hero button {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        background-color: #ECB172; /* BUTTON BG */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+        .hero button:hover {
+            background-color: #D05F4C; /* BUTTON HOVER */
+        }
+
+/* FEATURED ITEM CARDS SECTION */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    flex: 1 1 250px;
+    max-width: 300px;
+}
+
+    .card h3 {
+        font-family: 'Playfair Display', serif;
+        color: #375A63;
+        margin-top: 0;
+    }
+
+    .card p {
+        margin: 10px 0 0 0;
+        line-height: 1.4;
+        color: #6795A0; /* ALT TEXT COLOR */
+    }
+
+/* FOOTER STYLES */
+footer {
+    background-color: #6795A0; /* FOOTER BG */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* RESPONSIVE LAYOUT FOR SMALL SCREENS */
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+}

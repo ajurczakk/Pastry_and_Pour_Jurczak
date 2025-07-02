@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Pastry_And_Pour_Jurczak.Models;
 
+
 namespace Pastry_And_Pour_Jurczak.Controllers
 {
     // THIS CONTROLLER HANDLES ORDER STATUS API REQUESTS
@@ -13,7 +14,8 @@ namespace Pastry_And_Pour_Jurczak.Controllers
         public ActionResult<Order> GetOrderStatus()
         {
             // CREATE A NEW ORDER OBJECT WITH SAMPLE DATA
-            Order sampleOrder = new Order
+            Pastry_And_Pour_Jurczak.Models.Order sampleOrder = new Pastry_And_Pour_Jurczak.Models.Order
+
             {
                 Id = 1,
                 CustomerName = "ALLIE",
