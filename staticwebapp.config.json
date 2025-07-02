@@ -1,0 +1,6 @@
+{
+  "navigationFallback": {
+    "rewrite": "/wwwroot/frontend/index.html",
+    "exclude": ["/api/*"]
+  }
+}
